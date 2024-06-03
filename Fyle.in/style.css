@@ -1,0 +1,115 @@
+.slider {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+#our-project .project-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.popup input,
+.popup textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.popup button {
+    display: block;
+    width: 100%;
+}
+
+.slider .slide-item {
+    display: flex;
+    align-items: center;
+}
+
+.slider .slide-item img {
+    width: 50%; /* Adjust as necessary */
+}
+
+.slider .slide-item .message {
+    flex: 1;
+    padding-left: 20px; /* Adjust as necessary */
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.project-container {
+    padding: 2px; /* Add padding to space out project items */
+    margin-bottom: 10px; /* Reduce bottom margin */
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+.project-item {
+    cursor: pointer;
+    margin-bottom: 5px; /* Reduce margin between project items */
+    padding-bottom: 5px; /* Add padding bottom to separate items */
+}
+
+.project-item:last-child {
+    margin-bottom: 0; /* Remove margin for last project item */
+    border-bottom: none; /* Remove border for last project item */
+}
+
+.project-selected {
+    background-color: red; /* Change background color of selected project */
+    color: white; /* Change text color of selected project */
+}
+
+.growth-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+
+.feedback-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+footer {
+    background-color: #e23e3e !important; /* Light red background */
+    color: #eceaea !important; /* Text color */
+    padding: 20px !important; /* Adjust padding as needed */
+    width: 82.3% !important; /* Set the width to 80% of the container */
+    margin: 0 auto !important; /* Center the footer horizontally */
+}
+
+
+
+
+
+#clients-feedback {
+    margin-bottom: -45px; /* Adjust as needed */
+}
+
+
+
+
